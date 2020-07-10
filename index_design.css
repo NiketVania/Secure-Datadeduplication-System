@@ -1,0 +1,55 @@
+/*navigation menu*/
+.sidenav{
+	height: 100%;
+	width: 0%;
+  	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  	z-index: 1; /* Stay on top */
+  	top: 0; /* Stay at the top */
+  	left: 0;
+  	background-color: #282828;
+  	overflow-x: hidden; 
+  	padding-top: 60px;
+  	transition: 0.5s;
+}
+
+/*navigation menu links*/
+.sidenav a {
+	display: block;
+  	padding: 8px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+  	color: #818181;
+  	transition: 0.3s;
+}
+/*active link*/
+.sidenav a.active{
+	background-color: rgb(4, 56, 179);
+  	color: black;
+  	font-weight: bold;
+}
+.sidenav a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+.sidenav a:visited { 
+	color: #818181;
+}
+/*.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav a:active {
+	color: green;
+}*/
+.sidenav .closebtn {
+	position: absolute;
+  	top: 0;
+  	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+#main {
+	transition: margin-left .5s;
+	margin-left: 20%; /* Same as the width of the sidebar */ 
+	padding-top: 20px;
+	padding-left: 10px;
+}
