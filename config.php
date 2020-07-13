@@ -4,8 +4,8 @@
 
      $gClient = new Google_Client();
      // setup api at console.developers.google.com
-     $gClient->setClientId("378862440789-9niv0uioml4799cj1ja42qdjm3t8r1jb.apps.googleusercontent.com");
-     $gClient->setClientSecret("chtmFDYaC-kZ61l08DGOfy4r");
+     $gClient->setClientId("Enter your generated client ID");
+     $gClient->setClientSecret("Enter your generated client secret key");
      $gClient->setApplicationName("Secure Data Deduplication");
      $gClient->setRedirectUri("http://localhost/SecureDataDeduplication/g-callback.php");
 
